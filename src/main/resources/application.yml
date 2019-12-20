@@ -1,0 +1,11 @@
+##服务端口号
+server:
+  port: 8003
+###服务的别名---服务到注册中心的名称
+spring:
+  application:
+    name: zk-order
+  cloud:
+    zookeeper:
+      ####注册到服务地址
+      connect-string: localhost:2181
